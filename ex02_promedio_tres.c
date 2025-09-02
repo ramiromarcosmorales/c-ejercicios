@@ -1,3 +1,7 @@
+/*
+Ejercicio 2:
+Leer tres números y calcular su promedio
+*/
 #include <stdio.h>
 
 int main()

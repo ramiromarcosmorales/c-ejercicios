@@ -1,3 +1,7 @@
+/*
+Ejercicio 3:
+Leer el radio de una circunferencia y calcular su área y perímetro.
+*/
 #include <stdio.h>
 
 int main()

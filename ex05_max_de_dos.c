@@ -1,3 +1,7 @@
+/*
+Ejercicio 5:
+Leer dos números e indicar cuál es mayor.
+*/
 #include <stdio.h>
 
 int main()

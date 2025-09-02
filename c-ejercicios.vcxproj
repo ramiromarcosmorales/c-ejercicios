@@ -25,6 +25,17 @@
     <ClCompile Include="ex04_par_impar.c" />
     <ClCompile Include="ex05_max_de_dos.c" />
     <ClCompile Include="ex06_area_triangulo.c" />
+    <ClCompile Include="ex07_diferencia_absoluta.c" />
+    <ClCompile Include="ex08_max_de_tres.c" />
+    <ClCompile Include="ex09_calc_promedio.c" />
+    <ClCompile Include="ex10_celsius_a_fahrenheit.c" />
+    <ClCompile Include="ex11_km_a_m_cm.c" />
+    <ClCompile Include="ex12_kg_a_libras.c" />
+    <ClCompile Include="ex13_triangulo.c" />
+    <ClCompile Include="ex14_signo.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

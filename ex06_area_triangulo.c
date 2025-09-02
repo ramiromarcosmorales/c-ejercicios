@@ -1,3 +1,7 @@
+/*
+Ejercicio 6:
+Leer base y altura de un triángulo y calcular su área.
+*/
 #include <stdio.h>
 
 int main()

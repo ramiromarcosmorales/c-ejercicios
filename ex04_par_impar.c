@@ -1,3 +1,7 @@
+/*
+Ejercicio 4:
+Leer un número e indicar si es par o impar.
+*/
 #include <stdio.h>
 
 int main()

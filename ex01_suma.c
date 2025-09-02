@@ -1,3 +1,7 @@
+/*
+Ejercicio 1: 
+Leer dos números e imprimir su suma.
+*/
 #include <stdio.h>
 
 int main()
@@ -14,3 +18,4 @@ int main()
 	
 	return 0;
 }
+
