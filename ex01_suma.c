@@ -4,8 +4,7 @@ Leer dos números e imprimir su suma.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex01_suma() {
 	int a, b, suma;
 	printf("Ingresa el primer numero: ");
 	scanf_s("%d", &a);
@@ -15,7 +14,5 @@ int main()
 
 	suma = a + b;
 	printf("La suma total es: %d", suma);
-	
-	return 0;
 }
 

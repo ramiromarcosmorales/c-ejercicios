@@ -4,8 +4,7 @@ Leer peso en kilogramos y convertir a libras.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex12_kg_a_libras() {
 	double kg, libras;
 
 	printf("Ingrese los kilos: ");
@@ -14,6 +13,4 @@ int main()
 	libras = kg * 2.205;
 
 	printf("Libras: %.3lf\n", libras);
-
-	return 0;
 }

@@ -4,8 +4,7 @@ Leer tres números e indicar cuál es el mayor.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex08_max_de_tres() {
 	int a, b, c;
 	
 	printf("Ingrese el primer numero: ");
@@ -38,6 +37,4 @@ int main()
 	else if (b == c && b > a) {
 		printf("B y C son iguales y son mayores que A");
 	}
-
-	return 0;
 }

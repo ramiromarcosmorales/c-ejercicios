@@ -33,6 +33,10 @@
     <ClCompile Include="ex12_kg_a_libras.c" />
     <ClCompile Include="ex13_triangulo.c" />
     <ClCompile Include="ex14_signo.c" />
+    <ClCompile Include="ex15_tabla.c" />
+    <ClCompile Include="ex16_tabla_arco.c" />
+    <ClCompile Include="ex17_tabla_multiplicar.c" />
+    <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

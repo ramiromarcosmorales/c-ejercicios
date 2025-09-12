@@ -4,8 +4,7 @@ Leer temperatura en Celsius y convertir a Fahrenheit.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex10_celsius_a_fahrenheit() {
 	double celsius, fahrenheit;
 
 	printf("Ingrese la temperatura en Celsius: ");
@@ -14,6 +13,4 @@ int main()
 	fahrenheit = (celsius * 9 / 5) + 32;
 
 	printf("La temperatura en fahrenheit es: %lf", fahrenheit);
-
-	return 0;
 }

@@ -4,8 +4,7 @@ Leer tres números y calcular su promedio
 */
 #include <stdio.h>
 
-int main()
-{
+void ex02_promedio_tres() {
 	float a, b, c, promedio;
 
 	printf("Ingrese el primer numero: ");
@@ -20,6 +19,4 @@ int main()
 	promedio = (a + b + c) / 3;
 
 	printf("El promedio es: %.2f", promedio);
-
-	return 0;
 }

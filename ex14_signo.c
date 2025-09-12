@@ -4,8 +4,7 @@ Leer un número y determinar si es positivo, negativo o cero.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex14_signo() {
 	double num;
 
 	printf("Ingrese un numero: ");
@@ -20,6 +19,4 @@ int main()
 	else {
 		printf("%.2lf es CERO\n", num);
 	}
-
-	return 0;
 }

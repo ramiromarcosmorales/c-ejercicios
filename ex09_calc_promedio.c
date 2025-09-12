@@ -4,8 +4,7 @@ Leer dos notas y calcular su promedio (mostrar si aprobó o no).
 */
 #include <stdio.h>
 
-int main() 
-{
+void ex09_calc_promedio() {
 	double a, b, prom;
 
 	printf("Ingrese la primer nota: ");
@@ -17,6 +16,4 @@ int main()
 	prom = (a + b) / 2;
 
 	printf("La nota es: %lf", prom);
-
-	return 0;
 }

@@ -4,8 +4,7 @@ Leer dos números e indicar cuál es mayor.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex05_max_de_dos() {
 	int a, b;
 
 	printf("Ingrese el primer numero: ");
@@ -21,6 +20,4 @@ int main()
 	} else {
 		printf("Ambos son iguales\n");
 	}
-
-	return 0;
 }

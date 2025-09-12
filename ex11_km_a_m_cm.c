@@ -4,8 +4,7 @@ Leer cantidad en kilómetros y convertir a metros y centímetros
 */
 #include <stdio.h>
 
-int main()
-{
+void ex11_km_a_m_cm() {
 	double km, metros, cm;
 
 	printf("Ingrese los kilometros: ");
@@ -16,6 +15,4 @@ int main()
 
 	printf("Metros: %.2lf\n", metros);
 	printf("Centimetros: %.2lf\n", cm);
-
-	return 0;
 }

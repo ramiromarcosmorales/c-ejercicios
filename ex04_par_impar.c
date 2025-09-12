@@ -4,8 +4,7 @@ Leer un número e indicar si es par o impar.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex04_par_impar() {
 	int a;
 
 	printf("Ingrese un numero: ");
@@ -16,6 +15,4 @@ int main()
 	} else {
 		printf("Impar\n");
 	}
-
-	return 0;
 }

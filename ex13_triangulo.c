@@ -4,8 +4,7 @@ Leer tres lados e indicar si forman un triángulo válido.
 */
 #include <stdio.h>
 
-int main()
-{
+void ex13_triangulo() {
 	double a, b, c;
 
 	printf("Ingrese el primer lado: ");
@@ -23,6 +22,4 @@ int main()
 	else {
 		printf("No es un triangulo valido!");
 	}
-
-	return 0;
 }

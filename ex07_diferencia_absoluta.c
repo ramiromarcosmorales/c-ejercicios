@@ -3,13 +3,10 @@ Ejercicio 7:
 Leer dos números decimales y mostrar su diferencia absoluta. 
 Usar <math.h> para fabs().
 */
-
-
 #include <stdio.h>
 #include <math.h>
 
-int main()
-{
+void ex07_diferencia_absoluta() {
 	double a, b, c;
 
 	printf("Ingrese el primer numero: ");
@@ -21,7 +18,5 @@ int main()
 	c = fabs(a - b);
 
 	printf("La diferencia absoluta es: %lf", c);
-
-	return 0;
 }
 
