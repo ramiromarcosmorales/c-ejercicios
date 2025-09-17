@@ -69,6 +69,15 @@
     <ClCompile Include="ex17_tabla_multiplicar.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="ex18_polinomio.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ex19_hipotenusa.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ex20_calc_area_perimetro.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

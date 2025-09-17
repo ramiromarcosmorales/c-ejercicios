@@ -18,6 +18,9 @@ void ex14_signo();
 void ex15_tabla();
 void ex16_tabla_arco();
 void ex17_tabla_multiplicar();
+void ex18_polinomio();
+void ex19_hipotenusa();
+void ex20_calc_area_perimetro();
 
 int main() {
 	int opcion;
@@ -39,7 +42,10 @@ int main() {
 	printf("15 - Tabla\n");
 	printf("16 - Tabla arco\n");
 	printf("17 - Tabla de multiplicar\n");
-	printf("18 - Salir\n");
+	printf("18 - Polinomio\n");
+	printf("19 - Hipotenusa\n");
+	printf("20 - Area y Perimetro\n");
+	printf("21 - Salir\n");
 
 	bool salir = false;
 
@@ -99,6 +105,15 @@ int main() {
 				ex17_tabla_multiplicar();
 				break;
 			case 18:
+				ex18_polinomio();
+				break;
+			case 19:
+				ex19_hipotenusa();
+				break;
+			case 20:
+				ex20_calc_area_perimetro();
+				break;
+			case 21:
 				printf("Gracias por utilizar el programa!");
 				salir = true;
 				break;
